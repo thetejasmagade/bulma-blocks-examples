@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/8548bca167.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <!-- Header Type 1 Start -->
+    <nav class="navbar is-transparent">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                <span class="icon-text">
+                    <span class="icon fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x has-text-link"></i>
+                        <i class="fas fa-asterisk fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span>
+                        <h3 class="title is-5 pl-1 pt-3">BULMA EDUCATION</h3>
+                    </span>
+                </span>
+            </a>
+            <div class="navbar-burger" data-target="navbarExampleTransparentExample1">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div id="navbarExampleTransparentExample1" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#">
+                    First Link
+                </a>
+                <a class="navbar-item" href="#">
+                    Second Link
+                </a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link" href="#">
+                        Dropdowns
+                    </a>
+                    <div class="navbar-dropdown is-boxed">
+                        <a class="navbar-item" href="#">
+                            Dropdown 1
+                        </a>
+                        <a class="navbar-item" href="#">
+                            Dropdown 2
+                        </a>
+                        <a class="navbar-item" href="#">
+                            Dropdown 3
+                        </a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item" href="#">
+                            Dropdown 4
+                        </a>
+                    </div>
+                </div>
+                <div class="navbar-item">
+                    <p class="control">
+                        <a class="button is-link" href="#">
+                            <span>Button 1</span>
+                            <span class="icon">
+                                <i class="fas fa-arrow-right"></i>
+                            </span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Header Type 2 Close -->
+
+
+    <!-- Hero Type 6 Start -->
+    <section class="p-5 pt-4">
+        <div class="container is-max-widescreen is-centered has-text-centered">
+            <figure class="image is-inline-block">
+                <img src="./images/hero.jpg">
+            </figure>
+            <h1 class="title is-3 is-size-4-mobile pt-3">Welcome to Bulma Education
+            </h1>
+            <p class="pb-5">Kickstarter biodiesel roof party wayfarers cold-pressed. Palo santo live-edge tumeric
+                scenester copper
+                mug flexitarian.
+                Prism vice offal plaid everyday carry. Gluten-free chia VHS squid listicle artisan.</p>
+            <div class="field is-grouped is-grouped-centered is-hidden-mobile">
+                <p class="control">
+                    <input class="input" type="text" style="width: 450px" placeholder="Find a repository">
+                </p>
+                <p class="control">
+                    <a class="button is-link px-5">
+                        Search
+                    </a>
+                </p>
+            </div>
+            <div class="field is-grouped is-hidden-tablet">
+                <p class="control is-expanded">
+                    <input class="input" type="text" placeholder="Find a repository">
+                </p>
+                <p class="control">
+                    <a class="button is-link">
+                        Button
+                    </a>
+                </p>
+            </div>
+            <p class="help pb-5">Neutra shabby chic ramps, viral fixie.</p>
+            <div>
+                <button class="button is-large has-background-light is-shadowless my-5 mx-4 is-hidden-mobile">
+                    <span class="icon is-large">
+                        <i class="fab fa-google-play"></i>
+                    </span>
+                    <span>
+                        <div class="columns">
+                            <div class="column">
+                                <p class="subtitle is-7 p-0 m-0">GET IT ON</p>
+                                <p class="subtitle is-4 p-0 m-0">Google Play</p>
+                            </div>
+                        </div>
+                    </span>
+                </button>
+                <button class="button is-large has-background-light is-shadowless my-5 mx-4 is-hidden-mobile">
+                    <span class="icon is-large">
+                        <i class="fab fa-apple"></i>
+                    </span>
+                    <span>
+                        <div class="columns">
+                            <div class="column">
+                                <p class="subtitle is-7 p-0 m-0">Download on the</p>
+                                <p class="subtitle is-4 p-0 m-0">App Store</p>
+                            </div>
+                        </div>
+                    </span>
+                </button>
+                <div class="columns is-gapless is-mobile">
+                    <div class="column">
+                        <button class="button is-medium has-background-light is-shadowless is-hidden-tablet mr-2">
+                            <span class="icon is-medium">
+                                <i class="fab fa-google-play"></i>
+                            </span>
+                            <span>
+                                <div class="columns">
+                                    <div class="column">
+                                        <p class="is-size-7 p-0 m-0">GET IT ON</p>
+                                        <p class="is-size-6 p-0 m-0">Google Play</p>
+                                    </div>
+                                </div>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="column">
+                        <button class="button is-medium has-background-light is-shadowless is-hidden-tablet">
+                            <span class="icon is-medium">
+                                <i class="fab fa-apple"></i>
+                            </span>
+                            <span>
+                                <div class="columns">
+                                    <div class="column">
+                                        <p class="is-size-7 p-0 m-0">Download on the</p>
+                                        <p class="is-size-6 p-0 m-0">App Store</p>
+                                    </div>
+                                </div>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Type 6 Close -->
+
+    <hr />
+
+    <!-- Content Type 6 Start -->
+    <section class="p-5">
+        <div class="columns is-desktop mb-4">
+            <div class="column">
+                <h1 class="title is-3 pb-2 mb-0 is-size-4-mobile">We are Best Institution</h1>
+                <div style="height: 0.25rem; width: 5rem; background-color: #209cee; border-radius: 0.25rem;">
+                </div>
+            </div>
+            <div class="column">
+                <p class="pb-4 mr-4">
+                    Street art subway tile salvia four dollar toast bitters selfies quinoa yuccie synth meditation
+                    iPhone intelligentsia
+                    prism tofu. Viral gochujang bitters dreamcatcher.
+                </p>
+            </div>
+        </div>
+        <div class="columns is-desktop">
+            <div class="column">
+                <figure class="image is-16x9 mb-5">
+                    <img src="./images/content-1.jpg">
+                </figure>
+                <h1 class="title is-4 pb-3 my-2 is-size-5-mobile">Book Library</h1>
+                <p class="pb-3 mr-4">
+                    Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard
+                    dreamcatcher neutra,
+                    ethical XOXO lumbersexual.
+                </p>
+                <span class="icon-text">
+                    <span><a href="#" class="has-text-link is-size-6">Learn More <span class="icon">
+                                <i class="fas fa-arrow-right has-text-link"></i>
+                            </span></a></span>
+                </span>
+            </div>
+            <div class="column">
+                <figure class="image is-16x9 mb-5">
+                    <img src="./images/content-2.jpg">
+                </figure>
+                <h1 class="title is-4 pb-3 my-2 is-size-5-mobile">Best Teachers</h1>
+                <p class="pb-3 mr-4">
+                    Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard
+                    dreamcatcher neutra,
+                    ethical XOXO lumbersexual.
+                </p>
+                <span class="icon-text">
+                    <span><a href="#" class="has-text-link is-size-6">Learn More <span class="icon">
+                                <i class="fas fa-arrow-right has-text-link"></i>
+                            </span></a></span>
+                </span>
+            </div>
+            <div class="column">
+                <figure class="image is-16x9 mb-5">
+                    <img src="./images/content-3.jpg">
+                </figure>
+                <h1 class="title is-4 pb-3 my-2 is-size-5-mobile">Certification</h1>
+                <p class="pb-3 mr-4">
+                    Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard
+                    dreamcatcher neutra,
+                    ethical XOXO lumbersexual.
+                </p>
+                <span class="icon-text">
+                    <span><a href="#" class="has-text-link is-size-6">Learn More <span class="icon">
+                                <i class="fas fa-arrow-right has-text-link"></i>
+                            </span></a></span>
+                </span>
+            </div>
+        </div>
+    </section>
+<!-- Content Type 6 Close -->
+
+<hr/>
+
+<!-- Statistic Type 1 Start -->
+
+<section class="p-5">
+    <div class="columns is-variable is-6">
+        <div class="column">
+            <h4 class="title is-4 pt-5">Take the World's Best Courses online from us!</h4>
+            <p class="mt-0">Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable
+                fingerstache
+                kickstarter.</p>
+            <div class="columns pt-5 mt-5 is-mobile is-variable is-1">
+                <div class="column">
+                    <h1 class="title is-3 is-size-4-mobile py-0 my-0">2.7K
+                    </h1>
+                    <p class="py-0 my-0">Users</p>
+                </div>
+                <div class="column">
+                    <h1 class="title is-3 is-size-4-mobile py-0 my-0">1.8K
+                    </h1>
+                    <p class="py-0 my-0">Subscribers</p>
+                </div>
+                <div class="column">
+                    <h1 class="title is-3 is-size-4-mobile py-0 my-0"> 35 </h1>
+                    <p class="py-0 my-0">Downloads</p>
+                </div>
+                <div class="column">
+                    <h1 class="title is-3 is-size-4-mobile py-0 my-0">7
+                    </h1>
+                    <p class="py-0 my-0">Products</p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <figure class="image is-2by1">
+                <img src="./images/statistics.jpg">
+            </figure>
+        </div>
+    </div>
+</section>
+<!-- Statistic Type 2 Close -->
+
+<hr/>
+
+<!-- E-Commerce Type 3 Start -->
+<section class="p-5">
+    <h1 class="title is-3 is-size-4-mobile has-text-centered mb-2">Our Special Courses</h1>
+            <p class="has-text-centered pb-5">Blue bottle crucifix vinyl post-ironic four dollar toast vegan
+                taxidermy.
+                Gastropub indxgo juice poutine,
+                ramps
+                microdosing banh mi pug.</p>
+    <div class="columns is-desktop">
+       <div class="column">
+          <div class="card is-shadowless" style="border: 2px solid #E5E7EB;">
+             <div class="card-image">
+                <figure class="image is-2by1">
+                   <img src="./images/e-commerce/ec-1.jpg" alt="Placeholder image">
+                </figure>
+             </div>
+             <div class="card-content">
+                <div>
+                   <h1 class="title is-4 mb-3 is-size-5-mobile">Neural Networking</h1>
+                   <p class="pt-0 mt-0 is-pulled-right" style="text-decoration: line-through;">$ 65.00</p>
+                   <p class="has-text-link pb-5">
+                      <span class="icon-text">
+                      <span class="icon pl-6">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                      </span>
+                      </span>
+                   </p>
+                </div>
+                <div class="content">
+                   Photo booth fam kinfolk cold-pressed sriracha leggings jianbing.
+                </div>
+                <div class="columns is-mobile">
+                   <div class="column">
+                      <h2 class="title is-4 is-size-5-mobile mt-2">$ 55.00</h2>
+                   </div>
+                   <div class="column px-3">
+                      <button class="button is-link  is-pulled-right ">Purchase</button>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+       <div class="column">
+          <div class="card is-shadowless" style="border: 2px solid #E5E7EB;">
+             <div class="card-image">
+                <figure class="image is-2by1">
+                   <img src="./images/e-commerce/ec-2.jpg" alt="Placeholder image">
+                </figure>
+             </div>
+             <div class="card-content">
+                <div>
+                   <h1 class="title is-4 mb-3 is-size-5-mobile">Computer Science</h1>
+                   <p class="pt-0 mt-0 is-pulled-right" style="text-decoration: line-through;">$ 100.00</p>
+                   <p class="has-text-link pb-5">
+                      <span class="icon-text">
+                      <span class="icon pl-6">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      </span>
+                      </span>
+                   </p>
+                </div>
+                <div class="content">
+                   Photo booth fam kinfolk cold-pressed sriracha leggings jianbing.
+                </div>
+                <div class="columns is-mobile">
+                   <div class="column">
+                      <h2 class="title is-4 is-size-5-mobile mt-2">$ 80.00</h2>
+                   </div>
+                   <div class="column px-3">
+                      <button class="button is-link  is-pulled-right ">Purchase</button>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+       <div class="column">
+          <div class="card is-shadowless" style="border: 2px solid #E5E7EB;">
+             <div class="card-image">
+                <figure class="image is-2by1">
+                   <img src="./images/e-commerce/ec-3.jpg" alt="Placeholder image">
+                </figure>
+             </div>
+             <div class="card-content">
+                <div>
+                   <h1 class="title is-4 mb-3 is-size-5-mobile">Accounting</h1>
+                   <p class="pt-0 mt-0 is-pulled-right" style="text-decoration: line-through;">$ 65.00</p>
+                   <p class="has-text-link pb-5">
+                      <span class="icon-text">
+                      <span class="icon pl-6">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                      </span>
+                      </span>
+                   </p>
+                </div>
+                <div class="content">
+                   Photo booth fam kinfolk cold-pressed sriracha leggings jianbing.
+                </div>
+                <div class="columns is-mobile">
+                   <div class="column">
+                      <h2 class="title is-4 is-size-5-mobile mt-2">$ 55.00</h2>
+                   </div>
+                   <div class="column px-3">
+                      <button class="button is-link is-pulled-right ">Purchase</button>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+       <div class="column">
+          <div class="card is-shadowless" style="border: 2px solid #E5E7EB;">
+             <div class="card-image">
+                <figure class="image is-2by1">
+                   <img src="./images/e-commerce/ec-4.jpg" alt="Placeholder image">
+                </figure>
+             </div>
+             <div class="card-content">
+                <div>
+                   <h1 class="title is-4 mb-3 is-size-5-mobile">Communication</h1>
+                   <p class="pt-0 mt-0 is-pulled-right" style="text-decoration: line-through;">$ 65.00</p>
+                   <p class="has-text-link pb-5">
+                      <span class="icon-text">
+                      <span class="icon pl-6">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                      </span>
+                      </span>
+                   </p>
+                </div>
+                <div class="content">
+                   Photo booth fam kinfolk cold-pressed sriracha leggings jianbing.
+                </div>
+                <div class="columns is-mobile">
+                   <div class="column">
+                      <h2 class="title is-4 is-size-5-mobile mt-2">$ 55.00</h2>
+                   </div>
+                   <div class="column px-3">
+                      <button class="button is-link  is-pulled-right ">Purchase</button>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+    <div class="columns is-desktop">
+       <div class="column">
+          <div class="card is-shadowless" style="border: 2px solid #E5E7EB;">
+             <div class="card-image">
+                <figure class="image is-2by1">
+                   <img src="./images/e-commerce/ec-5.jpg" alt="Placeholder image">
+                </figure>
+             </div>
+             <div class="card-content">
+                <div>
+                   <h1 class="title is-4 mb-3 is-size-5-mobile">Psychology</h1>
+                   <p class="pt-0 mt-0 is-pulled-right" style="text-decoration: line-through;">$ 65.00</p>
+                   <p class="has-text-link pb-5">
+                      <span class="icon-text">
+                      <span class="icon pl-6">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                      </span>
+                      </span>
+                   </p>
+                </div>
+                <div class="content">
+                   Photo booth fam kinfolk cold-pressed sriracha leggings jianbing.
+                </div>
+                <div class="columns is-mobile">
+                   <div class="column">
+                      <h2 class="title is-4 is-size-5-mobile mt-2">$ 55.00</h2>
+                   </div>
+                   <div class="column px-3">
+                      <button class="button is-link  is-pulled-right ">Purchase</button>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+       <div class="column">
+          <div class="card is-shadowless" style="border: 2px solid #E5E7EB;">
+             <div class="card-image">
+                <figure class="image is-2by1">
+                   <img src="./images/e-commerce/ec-6.jpg" alt="Placeholder image">
+                </figure>
+             </div>
+             <div class="card-content">
+                <div>
+                   <h1 class="title is-4 mb-3 is-size-5-mobile">Electrical Engineering</h1>
+                   <p class="pt-0 mt-0 is-pulled-right" style="text-decoration: line-through;">$ 65.00</p>
+                   <p class="has-text-link pb-5">
+                      <span class="icon-text">
+                      <span class="icon pl-6">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                      </span>
+                      </span>
+                   </p>
+                </div>
+                <div class="content">
+                   Photo booth fam kinfolk cold-pressed sriracha leggings jianbing.
+                </div>
+                <div class="columns is-mobile">
+                   <div class="column">
+                      <h2 class="title is-4 is-size-5-mobile mt-2">$ 55.00</h2>
+                   </div>
+                   <div class="column px-3">
+                      <button class="button is-link  is-pulled-right ">Purchase</button>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+       <div class="column">
+          <div class="card is-shadowless" style="border: 2px solid #E5E7EB;">
+             <div class="card-image">
+                <figure class="image is-2by1">
+                   <img src="./images/e-commerce/ec-7.jpg" alt="Placeholder image">
+                </figure>
+             </div>
+             <div class="card-content">
+                <div>
+                   <h1 class="title is-4 mb-3 is-size-5-mobile">Spoken English</h1>
+                   <p class="pt-0 mt-0 is-pulled-right" style="text-decoration: line-through;">$ 65.00</p>
+                   <p class="has-text-link pb-5">
+                      <span class="icon-text">
+                      <span class="icon pl-6">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                      </span>
+                      </span>
+                   </p>
+                </div>
+                <div class="content">
+                   Photo booth fam kinfolk cold-pressed sriracha leggings jianbing.
+                </div>
+                <div class="columns is-mobile">
+                   <div class="column">
+                      <h2 class="title is-4 is-size-5-mobile mt-2">$ 55.00</h2>
+                   </div>
+                   <div class="column px-3">
+                      <button class="button is-link is-pulled-right ">Purchase</button>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+       <div class="column">
+          <div class="card is-shadowless" style="border: 2px solid #E5E7EB;">
+             <div class="card-image">
+                <figure class="image is-2by1">
+                   <img src="./images/e-commerce/ec-8.jpg" alt="Placeholder image">
+                </figure>
+             </div>
+             <div class="card-content">
+                <div>
+                   <h1 class="title is-4 mb-3 is-size-5-mobile">Graphics Designing</h1>
+                   <p class="pt-0 mt-0 is-pulled-right" style="text-decoration: line-through;">$ 65.00</p>
+                   <p class="has-text-link pb-5">
+                      <span class="icon-text">
+                      <span class="icon pl-6">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                      </span>
+                      </span>
+                   </p>
+                </div>
+                <div class="content">
+                   Photo booth fam kinfolk cold-pressed sriracha leggings jianbing.
+                </div>
+                <div class="columns is-mobile">
+                   <div class="column">
+                      <h2 class="title is-4 is-size-5-mobile mt-2">$ 55.00</h2>
+                   </div>
+                   <div class="column px-3">
+                      <button class="button is-link  is-pulled-right ">Purchase</button>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </section> 
+<!-- E-Commerce Type 3 Close -->
+
+<hr/>
+
+<!-- CTA Type 4 Start -->
+
+<section class="p-5">
+    <div class="columns is-desktop">
+    <div class="column">
+       <p class="has-text-link py-3"><span
+          class="has-background-info-light p-1 box-radius has-text-weight-medium is-size-7-mobile">ROOF
+          PARTY POLAROID</span>
+       </p>
+       <h1 class="title is-3 pb-5 my-1 is-size-5-mobile">Download Our App For Great Learning</h1>
+    </div>
+    <div class="column">
+       <div class="is-pulled-right">
+          <button class="button is-large has-background-light is-shadowless my-5 mx-4 is-hidden-mobile">
+             <span class="icon is-large">
+             <i class="fab fa-google-play"></i>
+             </span>
+             <span>
+                <div class="columns">
+                   <div class="column">
+                      <p class="subtitle is-7 p-0 m-0">GET IT ON</p>
+                      <p class="subtitle is-4 p-0 m-0">Google Play</p>
+                   </div>
+                </div>
+             </span>
+          </button>
+          <button class="button is-large has-background-light is-shadowless my-5 mx-4 is-hidden-mobile">
+             <span class="icon is-large">
+             <i class="fab fa-apple"></i>
+             </span>
+             <span>
+                <div class="columns">
+                   <div class="column">
+                      <p class="subtitle is-7 p-0 m-0">Download on the</p>
+                      <p class="subtitle is-4 p-0 m-0">App Store</p>
+                   </div>
+                </div>
+             </span>
+          </button>
+       </div>
+       <div class="columns is-mobile">
+          <div class="column">
+             <button class="button is-medium has-background-light is-shadowless is-hidden-tablet">
+                <span class="icon is-medium">
+                <i class="fab fa-google-play"></i>
+                </span>
+                <span>
+                   <div class="columns">
+                      <div class="column">
+                         <p class="is-size-7 p-0 m-0">GET IT ON</p>
+                         <p class="is-size-6 p-0 m-0">Google Play</p>
+                      </div>
+                   </div>
+                </span>
+             </button>
+          </div>
+          <div class="column">
+             <button class="button is-medium has-background-light is-shadowless is-hidden-tablet">
+                <span class="icon is-medium">
+                <i class="fab fa-apple"></i>
+                </span>
+                <span>
+                   <div class="columns">
+                      <div class="column">
+                         <p class="is-size-7 p-0 m-0">Download on the</p>
+                         <p class="is-size-6 p-0 m-0">App Store</p>
+                      </div>
+                   </div>
+                </span>
+             </button>
+          </div>
+       </div>
+    </div>
+ </section>
+<!-- CTA Type 4 Close -->
+
+<hr/>
+
+<!-- Testimonial Type 1 Start -->
+
+<section class="p-5">
+    <div class="columns is-desktop">
+        <div class="column is-centered has-text-centered">
+            <figure class="image is-96x96 is-inline-block">
+                <img class="is-rounded" src="https://reqres.in/img/faces/7-image.jpg">
+            </figure>
+            <p class="pt-5">
+                Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1
+                kinfolk. Single-origin
+                coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack
+                vaporware.
+            </p>
+            <div style="height: 0.25rem; width: 3rem; background-color: #209cee; border-radius: 0.25rem; margin: 0 auto;"
+                class="my-5">
+            </div>
+            <p class="has-text-black-ter has-text-weight-medium">HOLDEN CAULFIELD</p>
+            <p class="has-text-grey">Senior Product Designer</p>
+        </div>
+        <div class="column is-centered has-text-centered">
+            <figure class="image is-96x96 is-inline-block">
+                <img class="is-rounded" src="https://reqres.in/img/faces/8-image.jpg">
+            </figure>
+            <p class="pt-5">
+                Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1
+                kinfolk. Single-origin
+                coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack
+                vaporware.
+            </p>
+            <div style="height: 0.25rem; width: 3rem; background-color: #209cee; border-radius: 0.25rem; margin: 0 auto;"
+                class="my-5">
+            </div>
+            <p class="has-text-black-ter has-text-weight-medium">ALPER KAMU</p>
+            <p class="has-text-grey">UI Developer</p>
+        </div>
+        <div class="column is-centered has-text-centered">
+            <figure class="image is-96x96 is-inline-block">
+                <img class="is-rounded" src="https://reqres.in/img/faces/9-image.jpg">
+            </figure>
+            <p class="pt-5">
+                Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1
+                kinfolk. Single-origin
+                coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack
+                vaporware.
+            </p>
+            <div style="height: 0.25rem; width: 3rem; background-color: #209cee; border-radius: 0.25rem; margin: 0 auto;"
+                class="my-5">
+            </div>
+            <p class="has-text-black-ter has-text-weight-medium">HENRY LETHAM</p>
+            <p class="has-text-grey">CTO</p>
+        </div>
+    </div>
+</section>
+<!-- Testimonial Type 6 Close -->
+<br/>
+<br/>
+<!-- Footer Type 2 Start -->
+<footer>
+    <section class="p-5 footer">
+        <div class="columns">
+            <div class="column">
+                <p class="subtitle is-6 has-text-weight-medium has-text-left-tablet is-centered has-text-centered">
+                    CATEGORIES</p>
+                <div class="has-text-left-tablet is-centered has-text-centered">
+                    <p>First Link</p>
+                    <p>Second Link</p>
+                    <p>Third Link</p>
+                    <p>Fourth Link</p>
+                </div>
+            </div>
+            <div class="column">
+                <p class="subtitle is-6 has-text-weight-medium has-text-left-tablet is-centered has-text-centered">
+                    CATEGORIES</p>
+                <div class="has-text-left-tablet is-centered has-text-centered">
+                    <p>First Link</p>
+                    <p>Second Link</p>
+                    <p>Third Link</p>
+                    <p>Fourth Link</p>
+                </div>
+            </div>
+            <div class="column">
+                <p class="subtitle is-6 has-text-weight-medium has-text-left-tablet is-centered has-text-centered">
+                    CATEGORIES</p>
+                <div class="has-text-left-tablet is-centered has-text-centered">
+                    <p>First Link</p>
+                    <p>Second Link</p>
+                    <p>Third Link</p>
+                    <p>Fourth Link</p>
+                </div>
+            </div>
+            <div class="column">
+                <p class="subtitle is-6 has-text-weight-medium has-text-left-tablet is-centered has-text-centered">
+                    CATEGORIES</p>
+                <div class="has-text-left-tablet is-centered has-text-centered">
+                    <p>First Link</p>
+                    <p>Second Link</p>
+                    <p>Third Link</p>
+                    <p>Fourth Link</p>
+                </div>
+            </div>
+            <div class="column">
+                <span class="icon-text">
+                    <span class="icon fa-stack fa-lg">
+                        <i class="fas fa-circle fa-stack-2x has-text-link"></i>
+                        <i class="fas fa-asterisk fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span>
+                        <h3 class="title is-5 pl-3 pt-3">BULMA EDUCATION</h3>
+                    </span>
+                </span>
+                <p class="pt-3">Air plant banjo lyft occupy retro adaptogen indego</p>
+            </div>
+        </div>
+    </section>
+    <div class="has-background-light p-3 ">
+        <p>© 2020 BULMA BLOCKS <br class="is-hidden-tablet" /> —@tejasmagade
+            <span class="is-pulled-right">
+                <span class="icon is-size-5">
+                    <i class="fab fa-facebook-f pr-2"></i>
+                    <i class="fab fa-twitter pr-2"></i>
+                    <i class="fab fa-instagram pr-2"></i>
+                    <i class="fab fa-linkedin-in pr-6 mr-6"></i>
+                </span>
+            </span>
+        </p>
+    </div>
+</footer>
+<!-- Footer Type 2 Close -->
+</body>
+
+</html>
